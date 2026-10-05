@@ -199,8 +199,6 @@ ul {
 .side-nav li a.current {
   color: var(--gold);
   font-weight: 700;
-  padding-left: 14px;
-  border-left: 4px solid var(--gold);
 }
 
 .side-nav .button {
@@ -302,11 +300,11 @@ ul {
 }
 
 .project {
-  padding: 28px;
+  padding: 28px 32px;
   margin-bottom: 24px;
   background: var(--sheet);
   border: 1px solid var(--rule);
-  border-left: 6px solid var(--forest);
+  border-radius: 4px;
 }
 
 .project:last-child {
