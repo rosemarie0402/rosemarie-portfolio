@@ -435,34 +435,22 @@ ul {
   font-weight: 700;
 }
 
-.shots-note {
+.demo-note {
   margin-bottom: 12px;
   font-size: 0.95rem;
   color: var(--soft);
 }
 
-.shots {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 14px;
-  margin-bottom: 4px;
+.demo {
+  margin: 0 0 4px;
 }
 
-.shots figure {
-  margin: 0;
-}
-
-.shots img {
+.demo video {
   display: block;
   width: 100%;
   height: auto;
+  background: var(--charcoal-deep);
   border: 1px solid var(--rule);
-}
-
-.shots figcaption {
-  margin-top: 4px;
-  font-size: 0.9rem;
-  color: var(--soft);
 }
 
 .school {
@@ -688,10 +676,6 @@ ul {
   .contact-details div {
     grid-template-columns: 1fr;
     gap: 2px;
-  }
-
-  .shots {
-    grid-template-columns: 1fr;
   }
 
   .copy-button {
