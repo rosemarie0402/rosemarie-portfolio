@@ -689,6 +689,12 @@ ul {
   }
 }
 
+@media (max-width: 360px) {
+  .tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
